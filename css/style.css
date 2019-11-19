@@ -1,0 +1,168 @@
+@media screen and (max-width: 425px) {
+    .nav-wrapper {
+        position: relative;
+    }
+
+    .nav-wrap {
+        width: 100%;
+        position: fixed;
+        display: flex;
+        box-shadow: 0 0 32px rgba(0,0,0,.15);
+        z-index: 15;
+        background-color: #fff;
+    }
+
+    .n-logo {
+        width: 23%;
+        background-color: #f42;
+        background: linear-gradient(to bottom right,#c09,#f42 85%);
+        display: block;
+        height: 25px;
+        padding: 16px 20px;
+    }
+
+    .n-icons {
+        margin-left: auto;
+        width: 30%;
+        display: flex;
+        height: 55px;
+        align-items: center;
+    }
+
+    .icons {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .icons li {
+        display: flex;
+        align-items: center;
+        border-left: 1px solid #eee;
+        padding: 23px 13px 11px;
+    }
+
+    .icons svg {
+        width: 22px;
+        height: 22px;
+    }
+
+    .icons .diff {
+        fill: #f42;
+    }
+
+    /* end of navbar */
+
+    /* start of main wrapper */
+    .main-wrapper {
+        padding-top: 59px;
+    }
+
+    .sec1-wrap {
+        padding: 7px;
+    }
+
+    .top-article {
+        position: relative;
+        min-height: 30vh;
+        margin-bottom: 7px;
+    }
+
+    .cover {
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        right: 0px;
+        left: 0px;
+        background-color: #000;
+        background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/paymytab-database-hed-796x448.png');
+        min-height: 30vh;
+        background-size: cover;
+        background-position: 50%;
+        z-index: 1;
+    }
+
+    .world {
+        background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/tiger-796x417.jpg');
+    }
+
+    .insight {
+        background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/hfs2019-social_card-796x418.jpg');
+    }
+    
+    .cover-anc {
+        position: absolute;
+        top: 0px;
+        bottom: -1px;
+        right: 0px;
+        left: 0px;
+        background: linear-gradient(4deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 6%, rgba(0,0,0,0.38699229691876746) 117%, rgba(255,255,255,0.30015756302521013) 100%, rgba(255,255,255,1) 100%);
+        background-size: 100% 100%;
+        display: block;
+        z-index: 2;
+    }
+
+    .cover-text {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        left: 0px;
+        z-index: 3;
+        padding: 14px;
+        line-height: 1.2;
+    }
+
+    .cover-h {
+        font-family: Shentox, sans-serif;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: .04em;
+        line-height: 1.5;
+        font-size: 14px;
+    }
+
+    .cover-title {
+        font-size: 20px;
+        margin-bottom: .25em;
+        font-family: Avalon, sans-serif;
+        font-weight: 700;
+        letter-spacing: -.015em;
+        line-height: 1.1;
+    }
+
+    .byline {
+        color: hsla(0,0%,100%,.6);
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .cover-text a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .byline {
+        display: flex;
+    }
+
+    .byline li {
+        display: flex;
+        align-items: center;
+        padding-left: 9px;
+        color: #fff;
+    }
+
+    .byline li:first-child {
+        padding: 0;
+    }
+
+    .byline a {
+        padding-left: 5px;
+    }
+
+    .byline svg {
+        fill: #fff;
+        width: 12px;
+        opacity: 0.6;
+        padding-right: 5px;
+    }
+}
