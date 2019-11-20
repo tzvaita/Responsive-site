@@ -419,6 +419,70 @@
     z-index: 1;
 }
 
+.popular-cover-two {
+    width: 85%;
+    margin: 0 auto;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: #000;
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Snag_1f165436-368x276.png");
+    min-height: 45vh;
+    background-size: cover;
+    background-position: 50%;
+    z-index: 1;
+}
+
+.popular-cover-three {
+    width: 85%;
+    margin: 0 auto;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: #000;
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/surveillance-hed-1-368x276.png");
+    min-height: 45vh;
+    background-size: cover;
+    background-position: 50%;
+    z-index: 1;
+}
+
+.popular-cover-four {
+    width: 85%;
+    margin: 0 auto;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: #000;
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Giphy-Arcade-368x276.jpg");
+    min-height: 45vh;
+    background-size: cover;
+    background-position: 50%;
+    z-index: 1;
+}
+
+.popular-cover-five {
+    width: 85%;
+    margin: 0 auto;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: #000;
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/11/Untitled-design10-368x276.png");
+    min-height: 45vh;
+    background-size: cover;
+    background-position: 50%;
+    z-index: 1;
+}
+
 .popular-header {
     position: absolute;
     bottom: 0px;
@@ -451,4 +515,63 @@
     font-weight: 700;
     letter-spacing: -.015em;
     line-height: 1.1;
+}
+
+.section-latest {
+    width: 85%;
+    margin: 2px auto;
+    min-height: 17vh;
+    display: flex;
+    background-color: rgba(255,68,34,.06);
+}
+
+.head-news {
+    width: 80%;
+}
+
+.latest-tag {
+    color: #f42;
+    font-size: 13px;
+    font-family: Shentox,sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+    line-height: 1.5;
+    margin-left: 10px;
+}
+
+.news-title {
+    margin-left: 10px;
+}
+.news-title a {
+    text-decoration: none;
+    color: #f42;
+    font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+.side-image img {
+    width: 85px;
+    height: 85px;
+}
+
+.list-news {
+    width: 78%;
+    margin: 0 auto;
+    border-bottom: 1px solid #555;
+}
+
+.news-li {
+    margin: 10px;
+}
+
+.list-news-title a {
+    text-decoration: none;
+    color: #555;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+    line-height: 1.5;
 }
