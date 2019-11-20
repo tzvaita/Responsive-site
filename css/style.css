@@ -384,3 +384,71 @@
 .source {
     color: #aaa;
 }
+
+.latest a {
+    margin-bottom: 24px;
+    color: #f42;
+    font-weight: 700;
+    line-height: 1.1;
+    font-family: Avalon, sans-serif;
+    font-size: 25px;
+    letter-spacing: -.015em;
+    text-decoration: none;
+    padding: 23px;
+}
+
+.popular {
+    position: relative;
+    min-height: 45vh;
+    margin-bottom: 7px;
+}
+
+.popular-cover {
+    width: 85%;
+    margin: 0 auto;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: #000;
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/11/Disney-Plus-796x417.jpg");
+    min-height: 45vh;
+    background-size: cover;
+    background-position: 50%;
+    z-index: 1;
+}
+
+.popular-header {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 3;
+    padding: 14px;
+    line-height: 1.2;
+}
+
+.popular-heading a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.most-popular {
+    font-family: Shentox, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+    line-height: 1.5;
+    font-size: 14px;
+    color: #fff;
+}
+
+.popular-heading {
+    font-size: 20px;
+    margin-bottom: .25em;
+    font-family: Avalon, sans-serif;
+    font-weight: 700;
+    letter-spacing: -.015em;
+    line-height: 1.1;
+}
