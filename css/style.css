@@ -246,10 +246,10 @@
     background-image: url(../img/right0.png);
     background-size: 20px 20px;
     background-repeat: no-repeat;
-    background-position: 53% 90%;
+    background-position: 56% 90%;
 }
 
-.biz-sec a {
+.anc {
     color: #f42;
     text-decoration: none;
 }
@@ -541,4 +541,96 @@
     font-weight: 400;
     font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
     line-height: 1.5;
+}
+
+/* start of final sec */
+.final-sec {
+    margin: 15px auto;
+}
+
+.deals-head {
+    padding: 1em 18px;
+}
+
+.deals-head {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.deals-h {
+    display: flex;
+    align-items: center;
+    font-family: Avalon, sans-serif;
+    font-size: 25px;
+    letter-spacing: -0.015em;
+    height: 13px;
+}
+
+.deals-anc {
+    margin-bottom: 4px;
+}
+
+.right {
+    width: 20px;
+    height: 20px;
+    align-self: center;
+    margin-left: 6px;
+}
+
+.see-all {
+    align-self: center;
+}
+
+.list-items {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 15px;
+    max-width: 100%;
+}
+
+.list-li {
+    position: relative;
+    flex-basis: 100%;
+    max-width: 100%;
+    padding: 8px;
+}
+
+.list-li-con {
+    position: relative;
+    min-height: 72px;
+    padding-left: 88px;
+}
+
+.li-anc {
+    position: absolute;
+    top: 0%;
+    left: 0;
+}
+
+.li-anc img{
+    width: 75px;
+    height: 75px;
+}
+
+.li-head {
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+.li-head a {
+    text-decoration: none;
+    color: #000;
+}
+
+.price-box {
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    padding-top: 10px;
+    color: #555;
+    font-size: 12px;
+}
+
+.price1 {
+    text-decoration: line-through;
+    margin-right: 4PX;
 }
