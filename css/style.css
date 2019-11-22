@@ -204,11 +204,12 @@
 
 .latest-news {
     display: flex;
+    align-items: baseline;
 }
 
 .latest-news img {
     width: 20px;
-    height: 15px;
+    height: 13px;
     object-fit: cover;
     margin-left: 5px;
 }
@@ -871,7 +872,7 @@
     .byline li,
     .byline a {
         font-size: 14px;
-        color: hsla(0,0%,100%,.6);
+        color: hsla(0,0%,100%,0.6);
     }
 
     /* bifr icons */
@@ -886,5 +887,20 @@
     }
 
     /* sect2- wrap */
-    d
+    .latest-wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .the-latest {
+        flex: 0 1 33.333%;
+        display: block;
+        padding: 8px;
+    }
+
+    .news-img img {
+        width: 230px;
+        height: 140px;
+    }
 }
