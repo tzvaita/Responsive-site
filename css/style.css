@@ -1005,3 +1005,40 @@
         margin-left: 10px;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .n-logo {
+        display: none;
+    }
+
+    .sec1-wrap{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-column-gap: 9px;
+        height: 75vh;
+        max-height: 560px;
+    }
+
+    .top-article,bigfr {
+        position: relative;
+    }
+
+    .sec2-wrap {
+        max-width: 1192px;
+    }
+
+    .latest-wrapper {
+        display: flex;
+        
+    }
+
+    .the-latest {
+        flex: 0 1 24%;
+        display: block;
+        padding: 11px;
+    }
+
+    .headlines {
+        width: 90%;
+    }
+}
