@@ -448,7 +448,23 @@
     color: #aaa;
 }
 
-.latest a {
+/* news-list-section(section4) */
+.news-list-sections {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.news-sections {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.news-sect {
+    width: 94%;
+    margin-left: auto;
+}
+
+.cligdapt {
     margin-bottom: 24px;
     color: #f42;
     font-weight: 700;
@@ -457,7 +473,7 @@
     font-size: 25px;
     letter-spacing: -.015em;
     text-decoration: none;
-    padding: 23px;
+    padding: 23px 5px;
 }
 
 .popular {
@@ -551,6 +567,7 @@
     margin: 2px auto;
     min-height: 17vh;
     display: flex;
+    justify-content: space-between;
     background-color: rgba(255,68,34,.06);
 }
 
@@ -595,6 +612,11 @@
 
 .news-li {
     margin: 10px;
+    list-style: none;
+}
+
+.list-news-title {
+    position: relative;
 }
 
 .list-news-title a {
@@ -604,6 +626,18 @@
     font-weight: 400;
     font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
     line-height: 1.5;
+}
+
+.list-news-title a::before {
+    background-color: #f42;
+    border-radius: 50%;
+    content: "";
+    display: block;
+    height: 4px;
+    left: -14px;
+    position: absolute;
+    top: 6px;
+    width: 4px;
 }
 
 /* start of final sec */
@@ -657,19 +691,19 @@
 }
 
 .list-li-con {
-    position: relative;
+    display: flex;
     min-height: 72px;
-    padding-left: 88px;
+    /* padding-left: 88px; */
 }
 
-.li-anc {
-    position: absolute;
-    top: 0%;
-    left: 0;
+.name-price {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
 }
 
 .li-anc img{
-    width: 75px;
+    width: 100%;
     height: 75px;
     object-fit: cover;
 }
@@ -933,6 +967,41 @@
         flex-flow: nowrap;
     }
 
-    /* section 4 news-list section */
+    /* news-list-sections */
+    .news-sections {
+        flex: 0 1 50%;
+    }
 
+    /* final secton */
+    .list-li {
+        flex: 0 1 31%;
+    }
+
+    .list-li-con {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .li-anc {
+        margin-bottom: 8px;
+    }
+
+    .li-anc img {
+        width: 100%;
+        height: 180px;
+    }
+
+    .name-price {
+        margin: 0;
+    }
+
+    /* footer */
+    .legal-wrapper {
+        display: flex;
+        word-spacing: 1px;
+    }
+
+    .line3 {
+        margin-left: 10px;
+    }
 }
