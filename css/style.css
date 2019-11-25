@@ -187,7 +187,7 @@
 /* start of sec2 */
 .sec2-wrap,
 .sec3-wrap {
-    max-width: 1000px;
+    max-width: 1192px;
     margin: 12px auto;
     padding: 0 20px;
 }
@@ -330,6 +330,10 @@
     margin-bottom: 40px;
     flex: 1 1 33.333%;
     padding: 10px;
+}
+
+.lot {
+    display: none;
 }
 
 .biz-anc {
@@ -483,7 +487,7 @@
 }
 
 .popular-cover-uni {
-    width: 85%;
+    width: 90%;
     margin: 0 auto;
     position: absolute;
     top: 0px;
@@ -563,7 +567,7 @@
 }
 
 .section-latest {
-    width: 85%;
+    width: 90%;
     margin: 2px auto;
     min-height: 17vh;
     display: flex;
@@ -605,7 +609,7 @@
 }
 
 .list-news {
-    width: 78%;
+    width: 90%;
     margin: 0 auto;
     border-bottom: 1px solid #555;
 }
@@ -699,11 +703,11 @@
 .name-price {
     display: flex;
     flex-direction: column;
-    margin-left: 30px;
+    margin-left: 17px;
 }
 
 .li-anc img{
-    width: 100%;
+    width: 100px;
     height: 75px;
     object-fit: cover;
 }
@@ -947,18 +951,20 @@
 
     /* sect2- wrap */
     .the-latest {
-        flex: 0 1 32.333%;
+        flex: 1 1 32.5%;
+        max-width: 33.333%;
         display: block;
         padding: 11px;
     }
 
     .news-img img {
-        width: 230px;
+        width: 100%;
         height: 140px;
     }
 
     .headlines {
         margin: 0;
+        width: 97%;
     }
 
     /* sec3-wrap */
@@ -1006,6 +1012,24 @@
     }
 }
 
+@media screen and (min-width: 770px) {
+    /* sec3wrap anc */
+    .forls {
+        display: flex;
+    }
+
+    .rb {
+        border-right: 1px solid #f42;
+        margin-right: 12px;
+        padding-right: 12px;
+    }
+
+    .anc:last-of-type {
+        border-right: none;
+        margin-right: 0;
+    }
+}
+
 @media screen and (min-width: 1024px) {
     .n-logo {
         display: none;
@@ -1019,7 +1043,8 @@
         max-height: 560px;
     }
 
-    .top-article,bigfr {
+    .top-article,
+    .bigfr {
         position: relative;
     }
 
@@ -1029,7 +1054,6 @@
 
     .latest-wrapper {
         display: flex;
-        
     }
 
     .the-latest {
@@ -1040,5 +1064,42 @@
 
     .headlines {
         width: 90%;
+    }
+
+    .biz-sec {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        margin: 10px 0 7px 10px;
+    }
+
+    .biz-h {
+        margin: 0;
+    }
+
+    .forls {
+        margin-left: auto;
+    }
+
+    .lot {
+        display: block;
+    }
+
+    /* section4 news section */
+    .news-sections {
+        flex: 0 1 33.333%;
+    }
+
+    /* final section */
+    .see-all {
+        margin-right: 26px;
+    }
+
+    .list-li {
+        flex: 0 1 23.6%;
+    }
+
+    .legal-wrapper {
+        justify-content: center;
     }
 }
