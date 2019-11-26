@@ -18,8 +18,8 @@
 .n-alogo {
     position: relative;
     width: 62%;
-    background-color: #f42;
     background: linear-gradient(to bottom right, #c09, #f42 85%);
+    background-color: #f42;
     display: block;
     height: auto;
     padding: 16px 20px;
@@ -147,6 +147,7 @@
 }
 
 .byline {
+    display: flex;
     color: hsla(0, 0%, 100%, 0.6);
     font-size: 12px;
     line-height: 16px;
@@ -157,15 +158,19 @@
     text-decoration: none;
 }
 
-.byline {
-    display: flex;
-}
-
 .byline li {
     display: flex;
     align-items: center;
     padding-left: 9px;
     color: #fff9;
+}
+
+.social li {
+    margin: 15px 3px;
+}
+
+.links-menu li {
+    margin: 5px;
 }
 
 .byline li:first-child {
@@ -256,7 +261,7 @@
     width: 100%;
     color: #aaa;
     line-height: 18px;
-    font-family: ARS Maquette, Helvetica Neue, Arial,sans-serif;
+    font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
     font-size: 12px;
     padding-top: 4px;
 }
@@ -316,7 +321,7 @@
 
 .biz-worth {
     display: flex;
-    margin: -8px -8px 16px; 
+    margin: -8px -8px 16px;
 }
 
 .biz-box {
@@ -361,13 +366,13 @@
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 10;    
+    z-index: 10;
 }
 
 .biz-name {
     font-family: sans-serif;
     font-size: 18px;
-    color:#fff;
+    color: #fff;
     background: #f42;
     padding: 10.6666666667px 16px 10.6666666667px 84px;
     margin: 0;
@@ -390,7 +395,7 @@
 
 .series {
     font-size: 11px;
-    font-family: Shentox,sans-serif;
+    font-family: Shentox, sans-serif;
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 0.04em;
@@ -504,6 +509,7 @@
     background-position: 50%;
     z-index: 1;
 }
+
 .popular-cover {
     background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/11/Disney-Plus-796x417.jpg");
 }
@@ -596,6 +602,7 @@
 .news-title {
     margin-left: 10px;
 }
+
 .news-title a {
     text-decoration: none;
     color: #f42;
@@ -708,7 +715,7 @@
     margin-left: 17px;
 }
 
-.li-anc img{
+.li-anc img {
     width: 100px;
     height: 75px;
     object-fit: cover;
@@ -734,7 +741,7 @@
 
 .price1 {
     text-decoration: line-through;
-    margin-right: 4PX;
+    margin-right: 4px;
 }
 
 .footer-links {
@@ -766,6 +773,16 @@
     color: white;
 }
 
+.links-menu a {
+    text-decoration: none;
+    color: #aaa;
+    font-family: Shentox, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 24px;
+}
+
 .social a:hover {
     color: #000;
 }
@@ -773,10 +790,6 @@
 .social i {
     width: 16px;
     height: 16px;
-}
-
-.social li {
-    margin: 15px 3px;
 }
 
 .links-menu {
@@ -787,20 +800,6 @@
     align-content: space-between;
     justify-content: center;
     margin-top: 10px;
-}
-
-.links-menu li {
-    margin: 5px;
-}
-
-.links-menu a {
-    text-decoration: none;
-    color: #aaa;
-    font-family: Shentox, sans-serif;
-    font-weight: 500;
-    text-transform: uppercase;
-    font-size: 12px;
-    line-height: 24px;
 }
 
 .footer-legal {
@@ -866,6 +865,10 @@
         margin: 4px 0 4px 12px;
     }
 
+    .sec-li {
+        padding-left: 12px;
+    }
+
     .links-li:first-child,
     .sec-li:first-child {
         margin-left: 19px;
@@ -900,10 +903,6 @@
         height: 51px;
     }
 
-    .sec-li {
-        padding-left: 12px;
-    }
-
     .sec-li a {
         color: #aaa;
         text-decoration: none;
@@ -936,7 +935,7 @@
     .byline li,
     .byline a {
         font-size: 14px;
-        color: hsla(0,0%,100%,0.6);
+        color: hsla(0, 0%, 100%, 0.6);
     }
 
     /* bifr icons */
@@ -1025,7 +1024,7 @@
         padding-right: 12px;
     }
 
-     .rb:last-of-type {
+    .rb:last-of-type {
         border-right: none;
         margin-right: 0;
     }
@@ -1036,7 +1035,7 @@
         display: none;
     }
 
-    .sec1-wrap{
+    .sec1-wrap {
         display: grid;
         grid-template-columns: 2fr 1fr;
         grid-column-gap: 9px;
@@ -1105,7 +1104,7 @@
 
 @media screen and (min-width: 1440px) {
     /* section1 */
-    .cover-logo, 
+    .cover-logo,
     .cover-date {
         color: #fff;
         position: absolute;
