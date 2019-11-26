@@ -6,7 +6,7 @@
     width: 100%;
     position: fixed;
     display: flex;
-    box-shadow: 0 0 32px rgba(0,0,0,0.15);
+    box-shadow: 0 0 32px rgba(0, 0, 0, 0.15);
     z-index: 15;
     background-color: #fff;
 }
@@ -19,7 +19,7 @@
     position: relative;
     width: 62%;
     background-color: #f42;
-    background: linear-gradient(to bottom right,#c09,#f42 85%);
+    background: linear-gradient(to bottom right, #c09, #f42 85%);
     display: block;
     height: auto;
     padding: 16px 20px;
@@ -112,7 +112,7 @@
     bottom: -1px;
     right: 0;
     left: 0;
-    background: linear-gradient(4deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 6%, rgba(0,0,0,0.38699229691876746) 117%, rgba(255,255,255,0.30015756302521013) 100%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(4deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 6%, rgba(0, 0, 0, 0.38699229691876746) 117%, rgba(255, 255, 255, 0.30015756302521013) 100%, rgba(255, 255, 255, 1) 100%);
     background-size: 100% 100%;
     display: block;
     z-index: 2;
@@ -147,7 +147,7 @@
 }
 
 .byline {
-    color: hsla(0,0%,100%,0.6);
+    color: hsla(0, 0%, 100%, 0.6);
     font-size: 12px;
     line-height: 16px;
 }
@@ -247,7 +247,7 @@
     font-size: 14px;
     font-weight: 700;
     line-height: 18px;
-    font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+    font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
 }
 
 .writer {
@@ -256,9 +256,9 @@
     width: 100%;
     color: #aaa;
     line-height: 18px;
-    font-family: ARS Maquette, Helvetica Neue, Arial,sans-serif;
+    font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
     font-size: 12px;
-    padding-top: 4px
+    padding-top: 4px;
 }
 
 .fordot::after {
@@ -367,7 +367,7 @@
 .biz-name {
     font-family: sans-serif;
     font-size: 18px;
-    color:#fff;
+    color: #fff;
     background: #f42;
     padding: 10.6666666667px 16px 10.6666666667px 84px;
     margin: 0;
@@ -413,7 +413,7 @@
     color: #555;
     margin-right: 1em;
     display: block;
-    line-height: 2px
+    line-height: 2px;
 }
 
 .biz-ic {
@@ -575,7 +575,7 @@
     margin: 2px auto;
     display: flex;
     justify-content: space-between;
-    background-color: rgba(255,68,34,.06);
+    background-color: rgba(255, 68, 34, 0.06);
 }
 
 .head-news {
@@ -599,7 +599,7 @@
 .news-title a {
     text-decoration: none;
     color: #f42;
-    font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+    font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
     font-size: 14px;
     font-weight: 700;
     line-height: 1.25;
@@ -631,7 +631,7 @@
     color: #555;
     font-size: 13px;
     font-weight: 400;
-    font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+    font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
     line-height: 1.5;
 }
 
@@ -700,7 +700,6 @@
 .list-li-con {
     display: flex;
     min-height: 72px;
-    /* padding-left: 88px; */
 }
 
 .name-price {
@@ -709,7 +708,7 @@
     margin-left: 17px;
 }
 
-.li-anc img{
+.li-anc img {
     width: 100px;
     height: 75px;
     object-fit: cover;
@@ -765,7 +764,6 @@
     background: #333;
     border-radius: 50%;
     color: white;
-
 }
 
 .social a:hover {
@@ -818,7 +816,7 @@
     line-height: 1.5;
     color: #aaa;
     font-size: 13px;
-    font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+    font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
     text-align: center;
 }
 
@@ -938,7 +936,7 @@
     .byline li,
     .byline a {
         font-size: 14px;
-        color: hsla(0,0%,100%,0.6);
+        color: hsla(0, 0%, 100%, 0.6);
     }
 
     /* bifr icons */
@@ -1038,7 +1036,7 @@
         display: none;
     }
 
-    .sec1-wrap{
+    .sec1-wrap {
         display: grid;
         grid-template-columns: 2fr 1fr;
         grid-column-gap: 9px;
@@ -1131,7 +1129,7 @@
 
     .cover-date {
         display: block;
-        top: 16px
+        top: 16px;
     }
 
     .news-list-sections,
