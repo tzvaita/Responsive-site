@@ -132,17 +132,17 @@
     font-family: Shentox, sans-serif;
     font-weight: 500;
     text-transform: uppercase;
-    letter-spacing: .04em;
+    letter-spacing: 0.04em;
     line-height: 1.5;
     font-size: 14px;
 }
 
 .cover-title {
     font-size: 20px;
-    margin-bottom: .25em;
+    margin-bottom: 0.25em;
     font-family: Avalon, sans-serif;
     font-weight: 700;
-    letter-spacing: -.015em;
+    letter-spacing: -0.015em;
     line-height: 1.1;
 }
 
@@ -200,7 +200,7 @@
     line-height: 1.1;
     font-family: Avalon, sans-serif;
     font-size: 25px;
-    letter-spacing: -.015em;
+    letter-spacing: -0.015em;
 }
 
 .latest-news {
@@ -256,7 +256,7 @@
     width: 100%;
     color: #aaa;
     line-height: 18px;
-    font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+    font-family: ARS Maquette, Helvetica Neue, Arial,sans-serif;
     font-size: 12px;
     padding-top: 4px;
 }
@@ -367,7 +367,7 @@
 .biz-name {
     font-family: sans-serif;
     font-size: 18px;
-    color: #fff;
+    color:#fff;
     background: #f42;
     padding: 10.6666666667px 16px 10.6666666667px 84px;
     margin: 0;
@@ -393,7 +393,7 @@
     font-family: Shentox,sans-serif;
     font-weight: 500;
     text-transform: uppercase;
-    letter-spacing: .04em;
+    letter-spacing: 0.04em;
     line-height: 1.5;
 }
 
@@ -479,7 +479,7 @@
     line-height: 1.1;
     font-family: Avalon, sans-serif;
     font-size: 25px;
-    letter-spacing: -.015em;
+    letter-spacing: -0.015em;
     text-decoration: none;
     padding: 23px 5px;
 }
@@ -555,7 +555,7 @@
     font-family: Shentox, sans-serif;
     font-weight: 500;
     text-transform: uppercase;
-    letter-spacing: .04em;
+    letter-spacing: 0.04em;
     line-height: 1.5;
     font-size: 14px;
     color: #fff;
@@ -563,10 +563,10 @@
 
 .popular-heading {
     font-size: 20px;
-    margin-bottom: .25em;
+    margin-bottom: 0.25em;
     font-family: Avalon, sans-serif;
     font-weight: 700;
-    letter-spacing: -.015em;
+    letter-spacing: -0.015em;
     line-height: 1.1;
 }
 
@@ -585,10 +585,10 @@
 .latest-tag {
     color: #f42;
     font-size: 13px;
-    font-family: Shentox,sans-serif;
+    font-family: Shentox, sans-serif;
     font-weight: 500;
     text-transform: uppercase;
-    letter-spacing: .04em;
+    letter-spacing: 0.04em;
     line-height: 1.5;
     margin-left: 10px;
 }
@@ -708,7 +708,7 @@
     margin-left: 17px;
 }
 
-.li-anc img {
+.li-anc img{
     width: 100px;
     height: 75px;
     object-fit: cover;
@@ -796,7 +796,7 @@
 .links-menu a {
     text-decoration: none;
     color: #aaa;
-    font-family: Shentox,sans-serif;
+    font-family: Shentox, sans-serif;
     font-weight: 500;
     text-transform: uppercase;
     font-size: 12px;
@@ -936,7 +936,7 @@
     .byline li,
     .byline a {
         font-size: 14px;
-        color: hsla(0, 0%, 100%, 0.6);
+        color: hsla(0,0%,100%,0.6);
     }
 
     /* bifr icons */
@@ -1036,7 +1036,7 @@
         display: none;
     }
 
-    .sec1-wrap {
+    .sec1-wrap{
         display: grid;
         grid-template-columns: 2fr 1fr;
         grid-column-gap: 9px;
