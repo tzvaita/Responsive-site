@@ -38,7 +38,7 @@ Specs to the Project can be found [here](https://www.theodinproject.com/courses/
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Click on this [link](https://raw.githack.com/tzvaita/Responsive-site/site-content/index.html) to check out the live version of the project
+Click on this [link](https://raw.githack.com/tzvaita/Responsive-site/master/index.html) to check out the live version of the project
 
 
 <!-- CONTRIBUTING -->
@@ -61,7 +61,7 @@ Tennyson Zvaita - [@tennyzvaita
 
 Adewale Orotayo - [@didy707](https://twitter.com/didy707) - didymus7007@gmail.com
 
-Project Link: [Grayscale Heat Map](https://github.com/tzvaita/Responsive-site/tree/site-content).
+Project Link: [Responsive Site](https://github.com/tzvaita/responsive-site).
 
 
 
